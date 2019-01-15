@@ -12,7 +12,7 @@ require "sprockets/railtie"
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
-Bundler.require(*Rails.groups)
+#Bundler.require(*Rails.groups)
 
 module CoderPinterest
   class Application < Rails::Application
@@ -29,6 +29,7 @@ module CoderPinterest
     # config.i18n.default_locale = :de
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
-    config.active_record.raise_in_transactional_callbacks = true
+    #Comment this out for this version of Ruby
+   # config.active_record.raise_in_transactional_callbacks = true
   end
 end

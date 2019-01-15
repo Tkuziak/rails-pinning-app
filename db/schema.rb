@@ -1,4 +1,3 @@
-# encoding: UTF-8
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -19,7 +18,7 @@ ActiveRecord::Schema.define(version: 20150320022457) do
   create_table "pins", force: :cascade do |t|
     t.string "title"
     t.string "url"
-    t.text   "text"
+    t.text "text"
     t.string "slug"
     t.string "resource_type"
   end
