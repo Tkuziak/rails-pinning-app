@@ -60,7 +60,7 @@ GEM
     ffi (1.10.0-x64-mingw32)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
-    i18n (1.5.2)
+    i18n (1.5.3)
       concurrent-ruby (~> 1.0)
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
@@ -83,7 +83,7 @@ GEM
     nio4r (2.3.1)
     nokogiri (1.10.1-x64-mingw32)
       mini_portile2 (~> 2.4.0)
-    pg (0.21.0-x64-mingw32)
+    pg (1.0.0-x64-mingw32)
     puma (3.12.0)
     rack (2.0.6)
     rack-test (1.1.0)
@@ -100,6 +100,10 @@ GEM
       bundler (>= 1.3.0)
       railties (= 5.1.6)
       sprockets-rails (>= 2.0.0)
+    rails-controller-testing (1.0.4)
+      actionpack (>= 5.0.1.x)
+      actionview (>= 5.0.1.x)
+      activesupport (>= 5.0.1.x)
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
@@ -128,7 +132,7 @@ GEM
     rspec-mocks (3.8.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.8.0)
-    rspec-rails (3.8.1)
+    rspec-rails (3.8.2)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       railties (>= 3.0)
@@ -185,14 +189,16 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  activesupport (~> 5.0)
   byebug
   coffee-rails (~> 4.2.2)
   database_cleaner
   jbuilder (= 2.7.0)
   jquery-rails (= 4.3.2)
-  pg (~> 0.18)
+  pg (~> 1.0.0)
   puma
   rails (= 5.1.6)
+  rails-controller-testing
   rspec
   rspec-rails
   sass-rails (~> 5.0.6)
@@ -204,4 +210,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.16.4
+   2.0.1
