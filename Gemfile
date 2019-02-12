@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.1.6'
+#gem 'rails', '5.1.6'
+gem 'rails', '5.2.2'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.0.0'
 # Use SCSS for stylesheets
@@ -12,10 +13,18 @@ gem 'uglifier', '>= 3.2.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2.2'
 
-gem 'activesupport', '~> 5.0'
+#Feb 4
+#for images
+gem 'mini_magick', '~> 4.8'
+
+gem 'image_processing', '~> 1.2'
+#gem 'marcel', '~> 0.3.1'
+#gem 'activesupport', '~> 5.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+#Media file upload
+#
 # Use jquery as the JavaScript library
 #gem 'jquery-rails', '4.3.1' 
 gem 'jquery-rails', '4.3.2'
@@ -39,6 +48,10 @@ gem 'puma'
 gem 'rspec'
 gem 'rspec-rails'
 gem 'rails-controller-testing'
+
+#gem 'paperclip', '~> 4.3', '>= 4.3.6'
+
+gem 'aws-sdk', '< 2.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
