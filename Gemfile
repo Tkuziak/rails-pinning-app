@@ -51,7 +51,7 @@ gem 'rails-controller-testing'
 
 #gem 'paperclip', '~> 4.3', '>= 4.3.6'
 
-gem 'aws-sdk', '< 2.0'
+gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
