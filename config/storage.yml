@@ -8,10 +8,10 @@ local:
 
 amazon:
   service: S3
-  access_key_id: "AKIAI4Y7CIUPPOFAYN2Q"
-  secret_access_key: "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"
-  region: ""
-  bucket: "skillcrush-rails"
+  access_key_id: AKIAI4Y7CIUPPOFAYN2Q
+  secret_access_key: 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
+  region: us-east-1
+  bucket: skillcrush-rails
 # Use rails credentials:edit to set the AWS secrets (as aws:access_key_id|secret_access_key)
 #amazon:
 #  service: S3
